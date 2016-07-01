@@ -1,0 +1,257 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,600,700);
+body,html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+/*start index page*/
+.homepage-container {
+    height: 100%;
+    margin: 0;
+    background:url("http://wallpaper.pickywallpapers.com/1680x1050/schematic-green-soccer-field.jpg") no-repeat center center fixed;
+}
+
+.homepage-link {
+    text-align: center;
+    padding-top: 23%;
+
+}
+
+.homepage-submit {
+    background:transparent;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 3vmax;
+    border: 6px solid white;
+    text-align: center;
+    width: 40% ;
+    margin: auto;
+}
+
+.homepage-submit:hover {
+    background: #0000ff;
+}
+/*end of index*/
+/*start q1*/
+.q1-container {
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    background: white;
+    
+}
+.q1-links {
+    padding: 10%;
+    text-align: center;
+    
+}
+
+.purplewhite {
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    background: linear-gradient(90deg, white 50%, #5f338a 50%);
+    
+}
+.bluered {
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    background: linear-gradient(90deg, #004D98 50%, #A50044 50%);
+}
+.bluegold {
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    background: linear-gradient(90deg, #0063A6 50%, #FCB407 50%);
+    
+}
+.neongreenblue {
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    background: linear-gradient(90deg, #5D9731 50%, #005595 50%);
+    
+}
+
+.top-wrap {
+    text-align: center;
+}
+
+.bottom-wrap {
+    text-align: center
+}
+/*end of q1*/
+/*start of q2*/
+
+.q2-container {
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    background: white;
+    
+}
+.q2-links {
+    padding: 10%;
+    text-align: center;
+    
+}
+
+.los-angeles {
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    
+    
+}
+.barcelona {
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+   
+}
+.miami {
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+
+}
+.london {
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+
+}
+
+.top-wrap {
+    text-align: center;
+}
+
+.bottom-wrap {
+    text-align: center
+}
+/*end of q2*/
+/*start of q3*/
+
+.q3-container {
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    background: white;
+    
+}
+.q3-links {
+    padding: 10%;
+    text-align: center;
+    
+}
+
+.salad {
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    
+    
+}
+.bacon-and-eggs {
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+   
+}
+.tacos {
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+
+}
+.ice-cream {
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+
+}
+
+.top-wrap {
+    text-align: center;
+}
+
+.bottom-wrap {
+    text-align: center
+}
+/*end of q3*/
+/*start of q4*/
+.q4-container {
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    background: white;
+    
+}
+.q4-links {
+    padding: 10%;
+    text-align: center;
+    
+}
+
+.blind-side{
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    
+    
+}
+.babys-day-out {
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+   
+}
+.pursuit-of-hapyness {
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+
+}
+.forrest-gump {
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+
+}
+
+.top-wrap {
+    text-align: center;
+}
+
+.bottom-wrap {
+    text-align: center
+}
+/*end of q4*/
+/*start of results*/
+
+.results-container  {
+text-align: center;
+padding-top: 10%;
+font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Question 4</title>
+  <!-- links to CSS stylesheet in the public directory -->
+  <link rel="stylesheet" href="/css/index.css" >
+</head>
+<body> 
+
+  <div class="results-container">
+      
+    <% names = ["Alex Morgan", "Clint Dempsey", "Mallory Pugh", "Lionel Messi"] %>
+    <% pictures = ["http://espn.go.com/photo/2015/0601/mag_morgan01_RW_800x450.jpg", "http://api.ning.com/files/dGNsaS9iL-2iDbqeNTDADroftGZeLs6sTR1bxClJI-4Ny5OMr-K9kTQ2iMhe26oxAwWzliQPKrUKn3D0VZ5-DUrETIpmcA31/dempsey.jpg", "http://media.socceramerica.com.s3.amazonaws.com/dam/cropped/2016/04/08/pugh-mallory-2015.PNG", "http://img.uefa.com/imgml/TP/players/9/2015/324x324/95803.jpg"] %>
+   <% name = names.sample %>
+   <h1>You are most like: <%= name %>!</h1>
+   
+   <% if name == "Alex Morgan" %>
+     <img src="<%= pictures[0] %>">
+     <% elsif name == "Clint Dempsey" %>
+     <img src="<%= pictures[1] %>">
+     <% elsif name == "Mallory Pugh" %>
+     <img src="<%= pictures[2] %>">
+     <% else name == "Lionel Messi" %>
+     <img src="<%= pictures[3] %>">
+     <% end %>
+   <br><a href="/">Take the quiz again!</a>
+   
+   
+   
+   
+   
+  
+  
+ 
+  </div>
+
+</body>
+</html>
